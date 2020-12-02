@@ -128,3 +128,74 @@ body {
 .section_header_text:first-child {
     padding-right: 90px;   
 }
+/* section_about */
+.section_about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -55px;
+    overflow: auto;
+    padding-bottom: 115px;
+}
+.section_about_content {
+    display: flex;
+}
+.section_about_bg {
+    position: absolute;
+    right: 0%;
+    margin-top: -75px;
+}
+.about_item {
+    overflow: auto;
+    width: calc(50% - 15px);
+    padding-top: 160px;
+    min-width: 570px;
+    
+}
+.about_title {
+    font-size: 48px;
+    font-weight: 300;
+    color: #7492ec;
+    margin-bottom: 10px;
+}
+.abaut_text {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-bottom: 45px;
+    color: #666666;
+    line-height: 24px;
+    padding-right: 20px;
+}
+
+.about_item_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 115px;
+   
+}
+.list_icon {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+.list_content {  
+    display: flex;
+}  
+.list_content:last-child {
+    margin-bottom: 0px;
+}
+.list_title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding: 5px 0 15px;  
+}
+.list_text {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    line-height: 24px;
+}
