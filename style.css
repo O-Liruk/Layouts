@@ -1,0 +1,130 @@
+p {
+    margin: 0;
+}
+body {
+    width: 100%;
+    
+    /* max-width: 1920px; */
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url(../images/Im_1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px; */
+    /* background-size: contain; */
+}
+/* header */
+.header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    background-color: rgba(234, 240, 248, .5);
+}
+.section_menu_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 90px;
+}
+.header_top_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 60px;
+}
+.top_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 60px;
+    
+}
+.top_menu {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none; 
+    justify-content: center;
+    display: flex;
+    transition-delay: .2s;
+}
+.top_menu li {
+    padding-right: 30px;     
+}
+.top_menu a {
+    text-decoration: none;
+    color: #aab9e2;   
+}
+.top_menu a:hover {
+    color: #3d59ad;
+    text-decoration: none;
+    
+}
+.top_menu_btn {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(to right, #7492ec, #a77bff);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    transition: .2s;
+    max-height: 40px;
+}
+.top_menu_btn:hover {
+    color: #000000;
+    background: linear-gradient(to right, #606d9e, #836dad);    
+    border-color: transparent;
+}
+.top_menu_btn:active {
+    border-radius: 0px;
+    border: 1px solid transparent;
+    color: #ffffff;
+}
+.nav_menu {
+   overflow: auto;
+}
+/* section */
+.section {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: auto;
+    
+    padding: 0px 15px 0px 15px; 
+}
+.section_menu_header {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+.section_header {
+    background: url(./images/Im_1.png);
+    background-repeat: no-repeat;
+   
+    
+    padding-top: 260px;
+    padding-bottom: 200px;
+   
+}
+.section_info {
+    overflow: auto;
+    padding-bottom: 200px;
+    margin-right: 40px;
+}
+.section_header_text {
+    text-align: right;
+    font-size: 72px;
+    font-weight: 300;
+    color: #7492ec;
+}
+.section_header_text:first-child {
+    padding-right: 90px;   
+}
