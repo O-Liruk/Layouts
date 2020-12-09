@@ -199,3 +199,106 @@ body {
     color: #666666;
     line-height: 24px;
 }
+/* section_classes */
+.section_classes {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    overflow: auto;
+    background: url(../images/classesbg1.png) no-repeat; 
+    background-color: #f1f3f8;
+   
+}
+.about_classes {
+     position: relative;
+}
+.about_classes_img {
+    width: 100%;
+    text-align: center;
+}
+.text_h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+    color: #7492ec;
+    margin: 0px;
+    padding-bottom: 53px;
+}
+.about_classes_info_all {
+    overflow-x: hidden;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_classes_info_all:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    position: absolute;
+    right: -10px;
+    bottom: 50%;
+    z-index: 10;
+    transform: translateY(-50%) rotate(45deg);
+}
+.about_classes_info_all:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    position: absolute;
+    left: -10px;
+    bottom: 50%;
+    z-index: 10;
+    transform: translateY(-50%) rotate(225deg);
+}
+.about_classes_info {
+    width: calc(25% - 25px);
+    margin-right: 25px;
+}
+.classes_info_title {
+    font-size: 18px;
+    color: #7492ec;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.classes_info {
+    padding-left: 15px ;
+}
+.about_classes_icon img {
+    max-width: 12px;
+    max-height: 12px;
+}
+.about_classes_icon_time {
+    display: flex;
+}
+.classes_info_title_four {
+    padding-bottom: 27px;
+    margin-bottom: 15px;
+
+}
+.about_classes_icon_person {
+    display: flex;
+}
+.about_classes_icon_advanced {
+    display: flex;
+}
+.about_classes_icon_text  {
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    padding-left: 20px ;
+    margin-bottom: 15px;
+}
+.about_classes_icon {
+    margin-bottom: 25px;
+}
+.about_classes_text {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+}
