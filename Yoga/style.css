@@ -445,3 +445,81 @@ body {
     width: 25%;
     display: flex;
 }
+/* section_renewal */
+
+.section_special_renewal {
+    margin-bottom: 0;
+    overflow: inherit;
+}
+.section_renewal {
+    /* overflow: auto; */
+    background-color: #f8f7fc;
+}
+.section_renewal_content{
+    display: flex;
+    /* position: relative; */
+}
+.section_renewal_content_left_title {
+    font-size: 48px;
+    font-weight: 300;
+    color: #7492ec;
+    margin: 0px;  
+}
+.section_renewal_content_left_text {
+    
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #8ea2dc;
+    padding-bottom: 45px;
+    padding-right: 125px; 
+}
+.section_renewal_content_left_btn {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(to right, #7492ec, #a77bff);    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 15px 35px;
+    cursor: pointer;  
+}
+.section_renewal_content_left_btn:hover {
+    color: #7492ec;
+    background:#dde1ec;
+    border-color: #7492ec;
+}
+.section_renewal_content_left_btn:active {
+    border-radius: 0px;
+    border: 1px solid #7492ec;
+    color: #ffffff;
+}
+.section_renewal_content_left {
+    width: 50%;
+    padding: 245px 0px 190px 185px;
+}
+.section_renewal_content_right {
+    text-align: center;
+    position: relative;
+}
+.section_renewal_content_right_img {
+    position: absolute;
+    min-height: 746px;
+    top: -72px;
+    left: 0px;
+}
+/* section_logo */
+.section_special_logo {
+    margin-bottom: 0;
+}
+.section_logo {
+    margin: 80px 0px 80px 0px;
+}
+.section_logo_items_img {
+    padding-right: 184px;
+}
+.section_logo_items_img:last-child {
+    padding-right: 0px;
+}
